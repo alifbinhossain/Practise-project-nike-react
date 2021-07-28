@@ -1,14 +1,38 @@
 /* ---------------------------------- FONT ---------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .header{
     background-color: #FFF9F4;
 }
-.cart{
-    display: inline;
-}
 
-.header-content h1{
+ h1{
     font-family: 'Bebas Neue', cursive;
+}
+.header-content h1{
     font-size: 5rem;
+}
+main h1{
+    color: #363958;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+}
+.card{
+    padding: 1.2rem;
+}
+.card-image-top{
+    background-color: #F1F1F1;
+    height: 20rem;
+}
+.card-image-top-2{
+    background-color: transparent;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #FA804C;
+    font-size: 2.2rem;
+
+}
+.feature-item img{
+    width: 5rem;
 }
